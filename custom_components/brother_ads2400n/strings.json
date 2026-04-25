@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Brother ADS-2400N",
+        "description": "Connect to the scanner web interface.",
+        "data": {
+          "host": "IP address or hostname",
+          "password": "Web interface password",
+          "port": "HTTP port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the scanner",
+      "invalid_auth": "Incorrect password"
+    },
+    "abort": {
+      "already_configured": "Scanner is already configured"
+    }
+  }
+}

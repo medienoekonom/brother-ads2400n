@@ -1,0 +1,11 @@
+{
+  "domain": "brother_ads2400n",
+  "name": "Brother ADS-2400N Scanner",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/medienoekonom/brother-ads2400n",
+  "requirements": [],
+  "codeowners": ["@medienoekonom"],
+  "iot_class": "local_polling",
+  "homeassistant": "2023.1.0"
+}
